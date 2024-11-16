@@ -1,0 +1,51 @@
+header nav {
+    background-color: rgb(233, 227, 227);
+    height: 40px;
+    padding-top: 10px;
+    padding-left: 300px;
+
+
+position: relative;
+
+}
+
+.album{
+    background-color: rgb(233, 227, 227);
+}
+
+nav a {
+    padding: 30px;
+    font-size: 24px;
+    list-style: none;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    
+}
+.photo{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.photo img {
+    height: 300px;
+    width: 400PX;
+    border: 2px solid #ff3d0036;
+    border-radius: 13px;
+    box-shadow:  4px 7px 7px 0px #00000042;
+    cursor: pointer;
+    margin: 10px;
+    transition: 400ms;
+
+}
+
+.photo img:hover{
+    transform: scale(0.9);
+}
+h1{
+    margin-left: 550px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    color: rgb(6, 6, 6);
+}
